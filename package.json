@@ -1,0 +1,29 @@
+{
+  "name": "pruebaexamens3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "docs": "node node_modules/jsdoc/jsdoc.js src/js/main.js -d docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FranJJL05/pruebaExamenS3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FranJJL05/pruebaExamenS3/issues"
+  },
+  "homepage": "https://github.com/FranJJL05/pruebaExamenS3#readme",
+  "dependencies": {
+    "jest": "^30.2.0",
+    "jsdoc": "^4.0.5"
+  }
+}
